@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>university website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">      
+</head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="istockphoto-875882544-1024x1024.jpg" width="50px" length="50px"></a>
+                
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Kenya's biggest university</h1>
+                <p>making website is now one of the easiest think in the world.You just need to learn HTML,CSS,<br>Javascript and you are good to go.</p>
+                <a href="" class="hero-btn">visit us to know more</a>
+            </div>
+
+        </section>
+        <!--------Course------->
+        <section class="course">
+            <h1>courses we offer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ipsum a corrupti? Debitis nesciunt dolore a. Nostrum, suscipit et est assumenda, quo explicabo corporis aliquid, recusandae voluptatibus iure quaerat distinctio.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti repellendus vel ex libero, suscipit eligendi facilis tempora id culpa quibusdam, aspernatur accusamus explicabo debitis atque, dolor nisi ut adipisci.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quidem consectetur ipsum suscipit illum est voluptatibus perspiciatis sit eveniet minima eos veniam quas rerum libero laboriosam provident, ut similique recusandae.</p>
+                </div>
+            </div>
+        </section>
+        <!------campus------->
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+
+        </section>
+        
+
+        <!--------Javascript for Toggle Menu------------->
+        <script>
+            var navlinks=document.getElementById("navlinks");
+            function showMenu(){
+                navlinks.style.right="0";
+            }
+            function hideMenu({
+                navlinks.style.right="-200px";
+            })
+        </script>
+
+    </body>
+</html>
